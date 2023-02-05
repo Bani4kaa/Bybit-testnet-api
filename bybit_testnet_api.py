@@ -3,19 +3,12 @@ import config2
 from pybit import account_asset
 from pybit import spot
 
-
-
-
-
-#custom imports
-
-
-
-
 #end of custom imports
 
 api_key = config2.api_key
+print(f"API key: {api_key}")
 secret = config2.secret
+print(f"Secret: {secret}")
 
 # initialize the Bybit exchange object
 bybit = ccxt.bybit({
